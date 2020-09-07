@@ -1,0 +1,210 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Global CSS*/
+
+body{
+ 	font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+a:hover,a{
+	text-decoration: none;
+	
+}
+
+/*Header Part*/
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.main-header{
+	width: 100%;
+	float: left;
+    margin: 28px 0;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+.item{
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+.item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+}
+.item ul li a{
+	text-transform: uppercase;
+}
+
+/*Banner Section*/
+
+.banner-section{
+	width: 100%;
+}
+.details{
+	margin: 80px;
+}
+
+.details span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+ 
+.details h1{
+	margin: 18px 0;
+	font-weight:600;
+}
+
+.details p{
+	margin-bottom:40px; 
+}
+
+/*Gallery Section*/
+
+.box{
+	width: 87%;
+    margin: 0px 75px;
+	float: left;
+}
+.left-box{
+	width: 45%;
+    float: left;
+    margin: 20px;
+}
+.right-box{
+	width: 45%;
+    float: right;
+    margin: 20px;
+}
+.box-body img{
+	    margin-bottom: 30px;
+}
+.box-body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.box-body h1{
+	    margin: 28px 0;
+}
+.box-body p{
+	margin-bottom: 25px;
+
+}
+
+/*Subscription Part*/
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	padding: 80px;
+	text-align: center;
+}
+
+.form-body{
+	margin-right: 80px;
+}
+.title h1{
+	font-weight: 400;
+}
+
+.title{
+	margin-bottom: 40px;
+}
+form{
+	position: relative;/*
+	display: inline-block;*/
+
+}
+form input{
+	width: 30%;
+	padding: 20px 0px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid black;
+}
+
+form input:focus{
+	outline: none;
+}
+
+	/*position: relative;
+	display: inline-block;*/
+}
+form i{
+	position: absolute;
+	right: 36%;
+	top: 22px;
+
+}
+
+/*Last Gallery Section*/
+
+.button{
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.Button button{
+	padding: 20px 35px;
+	background: transparent;
+	border-radius: 0;
+	outline: none;
+	border: none;
+	border: 1px solid black;
+	font-size: 18px;	
+}
+.Button button:hover{
+	cursor: pointer;
+	background: #f0f0f0;
+	color:black;
+	transition: all 0.5s ease-in-out;
+}
+/*Footer Part*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer-box{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.left{
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+.right{
+	width: 60%;
+	float: right;
+	text-align: right;
+}
+.left ul li, .right ul li{
+	list-style: none;
+	display: inline-block;
+}
+.left ul li{
+	margin-right: 20px;
+}
+.right ul li{
+	margin-left: 20px; 
+}
